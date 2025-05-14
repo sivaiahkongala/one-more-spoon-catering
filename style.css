@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: #ffcb05;
+    margin-bottom: 2rem;
+}
+
+.category {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ffcb05;
+    padding-bottom: 1rem;
+}
+
+.category h2 {
+    color: #ffcb05;
+    border-left: 5px solid #ffcb05;
+    padding-left: 10px;
+}
+
+.item {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+.item input {
+    margin-right: 10px;
+}
+
+.summary {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.summary label {
+    display: block;
+    margin: 10px 0;
+}
+
+#selectedItems {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcb05;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #ffda3a;
+    color: #000;
+}
